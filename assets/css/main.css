@@ -20,8 +20,7 @@ header a {
   color: grey;
 }
 header a img {
-  width: 100px;
-  height: 50px;
+  width: 75px;
   object-fit: wrap;
 }
 
@@ -44,6 +43,10 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.position-btn a {
+  text-decoration: none;
+  color: #000000;
 }
 .search-btn {
   width: 100px;
@@ -76,6 +79,10 @@ main {
   border: 1px solid #f2f2f2;
   border-radius: 50px;
   align-items: center;
+  padding: 10px;
+}
+.icon {
+  color: #0065fc;
 }
 .filter span {
   margin-right: 5px;
@@ -86,21 +93,11 @@ main {
   display: flex;
   align-items: center;
 }
-.filter .icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid #f2f2f2;
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  box-shadow: #000000 1px;
+.filter:hover {
+  background-color: #deebff;
+  border-radius: 50px;
 }
 
-.icon {
-  color: #0065fc;
-  background-color: #deebff;
-}
 .hebergements {
   display: flex;
   justify-content: space-between;
@@ -108,7 +105,7 @@ main {
 }
 .hebergement-container {
   width: 65%;
-  background-color: #f2f2f2;
+  background-color: #d9d9d9;
   border-radius: 20px;
   padding: 0 20px;
 }
@@ -124,7 +121,7 @@ main {
   box-shadow: 0px 1px 13px -3px #000000;
   margin-bottom: 20px;
   border-radius: 15px;
-  padding: 10px;
+  padding: 5px;
 }
 .card {
   text-decoration: none;
@@ -143,7 +140,7 @@ main {
 }
 
 .les-plus-populaires {
-  background-color: #f2f2f2;
+  background-color: #d9d9d9;
   width: 30%;
   border-radius: 20px;
 }
