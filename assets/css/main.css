@@ -52,6 +52,7 @@ main {
   border: 1px solid #f2f2f2;
   width: 22%;
   border-radius: 11px;
+  margin-top: 20px;
 }
 .search-bar {
   border-style: none;
@@ -92,19 +93,26 @@ main {
   display: flex;
   gap: 20px;
   align-items: center;
+  padding-left: 22px;
+}
+.filters p {
+  font-size: 18px;
+  font-weight: 700;
 }
 .filter {
   display: flex;
   border: 1px solid #f2f2f2;
   border-radius: 50px;
   align-items: center;
-  padding: 10px;
+  margin: 10px 45px;
 }
 .icon {
   color: #0065fc;
 }
 .filter span {
   margin-right: 5px;
+  font-size: 17px;
+  font-weight: 700;
 }
 .filter a {
   text-decoration: none;
@@ -116,11 +124,13 @@ main {
   background-color: #deebff;
   border-radius: 50px;
 }
-
+.itext {
+  padding-top: 10px;
+}
 .hebergements {
   display: flex;
   justify-content: space-between;
-  padding-top: 20px;
+  padding-top: 80px;
 }
 
 .hebergement-container {
