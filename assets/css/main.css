@@ -38,6 +38,9 @@ main {
 #home {
   padding-top: 44px;
 }
+.searchText {
+  padding: 0 12px;
+}
 .searchText h1 {
   font-size: 22px;
 }
