@@ -33,7 +33,7 @@ header a img {
 }
 
 main {
-  padding: 0 40px;
+  padding: 0 40px 61px 40px;
 }
 #home {
   padding-top: 44px;
@@ -101,13 +101,14 @@ main {
 }
 .filter {
   display: flex;
-  border: 1px solid #f2f2f2;
+  border: 2px solid #f2f2f2;
   border-radius: 50px;
   align-items: center;
-  margin: 10px 45px;
+  padding: 10px 10px;
 }
 .icon {
   color: #0065fc;
+  font-size: 22px;
 }
 .filter span {
   margin-right: 5px;
@@ -125,32 +126,41 @@ main {
   border-radius: 50px;
 }
 .itext {
-  padding-top: 10px;
+  margin-top: 40px;
+}
+.main-content {
+  margin: 0 10px;
 }
 .hebergements {
   display: flex;
   justify-content: space-between;
-  padding-top: 80px;
+  padding-top: 39px;
+  height: 626px;
 }
 
 .hebergement-container {
-  width: 65%;
+  width: 880px;
   background-color: #d9d9d9;
   border-radius: 20px;
-  padding: 0 20px;
+}
+.hebergement-container h2 {
+  padding: 42px 40px 20px 40px;
 }
 .hebergements .cards {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding: 0 40px;
+  gap: 20px;
 }
 .hebergements .card {
-  width: 30%;
+  width: 27%;
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  margin-bottom: 20px;
   border-radius: 20px;
   padding: 5px;
+  width: 240px;
+  height: 190px;
 }
 .card {
   text-decoration: none;
@@ -158,7 +168,7 @@ main {
 }
 .hebergements .card img {
   width: 100%;
-  height: 150px;
+  height: 124px;
   border-radius: 15px 15px 0 0;
   object-fit: cover;
 }
@@ -166,32 +176,37 @@ main {
 .afficher-plus {
   text-decoration: none;
   color: #000000;
+  padding: 44px 0 46px 0;
+  font-size: 18px;
+  font-weight: 700;
 }
 .les-plus-populaires-container {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 15px;
+  height: 626px;
 }
 .les-plus-populaires {
   background-color: #d9d9d9;
-  width: 30%;
+  width: 420px;
   border-radius: 20px;
 }
 .les-plus-populaires .titre {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  padding: 42px 40px 20px 40px;
 }
 .les-plus-populaires .card {
   display: flex;
-  width: 90%;
+  width: 340px;
+  height: 140px;
   margin: 0 auto 20px auto;
   border-radius: 20px;
 }
 .les-plus-populaires .card img {
-  width: 30%;
-  height: 150px;
+  width: 137px;
+  height: 144px;
   border-radius: 15px 0 0 15px;
 }
 .les-plus-populaires .card .card-content {
@@ -201,17 +216,22 @@ main {
 
 .star-blue {
   color: #0065fc;
+  font-size: 12px;
 }
 .star-grey {
   color: grey;
+  font-size: 12px;
 }
 
 .activite {
-  padding-top: 40px;
+  padding-top: 50px;
+}
+.activite .titre {
+  padding-bottom: 20px;
 }
 .activite-containers {
   display: flex;
-  width: 100%;
+  gap: 43px;
 }
 
 .activite-containers .card {
@@ -224,7 +244,6 @@ main {
   border-radius: 15px 15px 0 0;
   border: 1px;
   border-radius: 20px;
-  margin: 20px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .big h3 {
@@ -232,22 +251,21 @@ main {
 }
 .big-pic {
   width: 100%;
-  height: 380px;
+  height: 389px;
   border-radius: 15px 15px 0 0;
   object-fit: cover;
 }
 
-.footer-menu {
-  padding: 20px 40px;
-}
 footer {
   display: flex;
-  gap: 15%;
   background-color: #f2f2f2;
+  width: 100%;
+}
+.footer-menu {
+  padding: 45px 53px;
 }
 ul {
   list-style: none;
-  padding-left: 0%;
 }
 footer a {
   text-decoration: none;
