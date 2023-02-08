@@ -5,6 +5,9 @@
   margin: 0;
   padding: 0;
 }
+h1 {
+  margin: 0;
+}
 
 header {
   display: flex;
@@ -35,6 +38,9 @@ header a img {
 main {
   padding: 0 40px 61px 40px;
 }
+.main-content {
+  height: 600px;
+}
 #home {
   padding-top: 44px;
 }
@@ -43,9 +49,11 @@ main {
 }
 .searchText h1 {
   font-size: 22px;
+  margin-top: 15px;
 }
 .searchText p {
   font-size: 16px;
+  padding: 8px 3px 6px;
 }
 .search {
   display: flex;
@@ -94,6 +102,7 @@ main {
   gap: 20px;
   align-items: center;
   padding-left: 22px;
+  padding-top: 35px;
 }
 .filters p {
   font-size: 18px;
@@ -151,28 +160,29 @@ main {
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 0 40px;
-  gap: 20px;
+  gap: 25px;
 }
 .hebergements .card {
-  width: 27%;
+  width: 30%;
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 20px;
   padding: 5px;
-  width: 240px;
-  height: 190px;
+  height: 60%;
 }
 .card {
   text-decoration: none;
   color: black;
 }
 .hebergements .card img {
-  width: 100%;
+  width: 246px;
   height: 124px;
   border-radius: 15px 15px 0 0;
   object-fit: cover;
 }
-
+.card-text {
+  padding-left: 10px;
+}
 .afficher-plus {
   text-decoration: none;
   color: #000000;
@@ -199,14 +209,14 @@ main {
 }
 .les-plus-populaires .card {
   display: flex;
-  width: 340px;
+  width: 80%;
   height: 140px;
   margin: 0 auto 20px auto;
   border-radius: 20px;
 }
 .les-plus-populaires .card img {
   width: 137px;
-  height: 144px;
+  height: 100%;
   border-radius: 15px 0 0 15px;
 }
 .les-plus-populaires .card .card-content {
