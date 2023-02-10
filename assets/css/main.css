@@ -98,7 +98,7 @@ main {
 
 .filters {
   display: flex;
-  gap: 20px;
+  gap: 50px;
   align-items: center;
   padding-left: 22px;
   padding-top: 35px;
@@ -147,8 +147,8 @@ main {
 }
 
 .hebergement-container {
-  width: 880px;
-  background-color: #d9d9d9;
+  width: 66%;
+  background-color: #f2f2f2;
   border-radius: 20px;
 }
 .hebergement-container h2 {
@@ -174,7 +174,7 @@ main {
   color: black;
 }
 .hebergements .card img {
-  width: 246px;
+  width: 100%;
   height: 124px;
   border-radius: 15px 15px 0 0;
   object-fit: cover;
@@ -196,8 +196,8 @@ main {
   height: 626px;
 }
 .les-plus-populaires {
-  background-color: #d9d9d9;
-  width: 420px;
+  background-color: #f2f2f2;
+  width: 32%;
   border-radius: 20px;
 }
 .les-plus-populaires .titre {
@@ -233,7 +233,7 @@ main {
 }
 
 .activite {
-  padding-top: 50px;
+  padding-top: 120px;
 }
 .activite .titre {
   padding-bottom: 20px;
@@ -271,7 +271,7 @@ footer {
   width: 100%;
 }
 .footer-menu {
-  padding: 45px 53px;
+  padding: 45px 60px;
 }
 ul {
   list-style: none;
