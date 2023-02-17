@@ -17,7 +17,7 @@ header {
 }
 header ul {
   display: flex;
-  gap: 35px;
+  gap: 20px;
 }
 
 header a {
@@ -174,7 +174,7 @@ main {
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 0 40px;
-  gap: 25px;
+  gap: 20px;
 }
 .hebergements .card {
   width: 30%;

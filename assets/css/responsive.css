@@ -1,4 +1,97 @@
 @media screen and (max-width: 1024px) {
+  body {
+    margin: 0 70px;
+  }
+
+  .filter-section {
+    padding-left: 20px;
+  }
+
+  .filters {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .search-btn span {
+    display: none;
+  }
+  .search-btn i {
+    display: block;
+  }
+  .main-content {
+    margin: 0;
+  }
+  .info {
+    margin-top: 20px;
+  }
+  .hebergements {
+    display: flex;
+    flex-direction: column;
+  }
+  .hebergement-container {
+    width: 100%;
+  }
+  .hebergements .card {
+    margin-top: 20px;
+  }
+  .les-plus-populaires {
+    border-radius: 0;
+    width: 100%;
+  }
+
+  .filters h2 {
+    width: 100%;
+  }
+
+  .hebergement-container {
+    width: 90%;
+    padding: 0 5%;
+    flex-wrap: wrap;
+  }
+  .hebergements .card {
+    width: 30%;
+  }
+  .les-plus-populaires {
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 50px;
+  }
+  .les-plus-populaires .card {
+    width: 90%;
+    margin: 0 auto 20px auto;
+  }
+
+  .activite-containers {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .big {
+    width: 20%;
+  }
+  .big-pic {
+    height: 211px;
+    width: 180px;
+  }
+
+  main {
+    padding: 0;
+  }
+  footer {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .big {
+    width: 90%;
+  }
+  .double .card {
+    width: 100%;
+  }
+  .activite .titre {
+    padding: 20px;
+  }
   header {
     padding: 44px 0;
   }
@@ -18,10 +111,6 @@
     border-bottom: 1px solid blue;
     border-top: 1px solid transparent;
   }
-
-  .filter-section {
-    padding-left: 20px;
-  }
   .search {
     width: 80%;
   }
@@ -32,97 +121,6 @@
   .search-bar {
     width: 100%;
   }
-  .filters {
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-  .search-btn span {
-    display: none;
-  }
-  .search-btn i {
-    display: block;
-  }
-  .main-content {
-    margin: 0;
-  }
-  .info {
-    margin-top: 20px;
-  }
-  .hebergements {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-  .hebergement-container {
-    width: 100%;
-  }
-  .hebergements .card {
-    margin-top: 20px;
-  }
-  .les-plus-populaires {
-    border-radius: 0;
-    width: 100%;
-  }
-  .double .card {
-    width: 100%;
-  }
-  .activite .titre {
-    padding: 20px;
-  }
-  .filters h2 {
-    width: 100%;
-  }
-  .hebergements {
-    flex-direction: column-reverse;
-  }
-  .hebergement-container {
-    width: 90%;
-    padding: 0 5%;
-    background-color: transparent;
-    flex-wrap: wrap;
-  }
-  .hebergements .card {
-    width: 45%;
-    margin: 20px auto 0 auto;
-  }
-  .les-plus-populaires {
-    width: 100%;
-  }
-  .les-plus-populaires .card {
-    width: 90%;
-    margin: 0 auto 20px auto;
-  }
-
-  .activite-containers {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .big {
-    width: 90%;
-  }
-  .double {
-    height: 100%;
-    width: 90%;
-    flex-direction: row;
-  }
-  .double .card {
-    width: 48%;
-    height: 100%;
-  }
-  .double-pic,
-  .double-pic-moyen {
-    height: 200px;
-  }
-
-  main {
-    padding: 0;
-  }
-  footer {
-    flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 768px) {
   .filters h2 {
     width: 100%;
   }
