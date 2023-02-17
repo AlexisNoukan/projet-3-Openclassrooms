@@ -17,17 +17,20 @@ header {
 }
 header ul {
   display: flex;
-  gap: 70px;
+  gap: 35px;
 }
 
 header a {
   text-decoration: none;
   color: grey;
 }
+header li a {
+  margin: 0 35px;
+}
 header li a:hover {
   border-top: #0065fc 2px solid;
   color: #0065ff;
-  padding-top: 40px;
+  padding-top: 44px;
 }
 header a img {
   width: 60px;
@@ -74,6 +77,9 @@ main {
   text-decoration: none;
   color: #000000;
 }
+.search input {
+  padding: 0 5px;
+}
 .search-btn {
   width: 100px;
   height: 50px;
@@ -84,6 +90,7 @@ main {
   align-items: center;
   justify-content: center;
   border-style: none;
+  padding: 0 5px;
 }
 .position-icon {
   width: 50px;
@@ -127,6 +134,7 @@ main {
   color: #000000;
   display: flex;
   align-items: center;
+  gap: 10px;
 }
 .filter:hover {
   background-color: #deebff;
@@ -134,6 +142,15 @@ main {
 }
 .itext {
   margin-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+.itext i {
+  border: 1px solid #f2f2f2;
+  border-radius: 50%;
+  padding: 2px 5px;
+  font-size: 10px;
 }
 .main-content {
   margin: 0 10px;
@@ -218,6 +235,9 @@ main {
 .les-plus-populaires .card .card-content {
   width: 60%;
   padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .star-blue {
@@ -253,7 +273,7 @@ main {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .big h3 {
-  padding: 10px 5px;
+  padding: 20px;
 }
 .big-pic {
   width: 100%;
@@ -275,6 +295,10 @@ footer {
 }
 .footer-menu ul {
   list-style: none;
+  padding-top: 20px;
+}
+.footer-menu li {
+  padding: 10px 0;
 }
 footer a {
   text-decoration: none;

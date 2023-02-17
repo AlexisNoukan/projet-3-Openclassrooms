@@ -1,6 +1,6 @@
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
   header {
-    padding: 0;
+    padding: 44px 0;
   }
   header {
     flex-direction: column;
@@ -25,17 +25,25 @@
   .search {
     width: 80%;
   }
+  .search-responsive {
+    display: flex;
+    justify-content: center;
+  }
   .search-bar {
     width: 100%;
   }
   .filters {
     flex-wrap: wrap;
+    gap: 10px;
   }
   .search-btn span {
     display: none;
   }
   .search-btn i {
     display: block;
+  }
+  .main-content {
+    margin: 0;
   }
   .info {
     margin-top: 20px;
@@ -129,8 +137,10 @@
   }
   .hebergement-container {
     width: 90%;
-    padding: 0 5%;
     background-color: transparent;
+  }
+  .hebergements .cards {
+    padding: 0;
   }
   .hebergements .card {
     width: 100%;
@@ -142,6 +152,9 @@
   .les-plus-populaires .card {
     width: 90%;
     margin: 0 auto 20px auto;
+  }
+  .activite {
+    padding-bottom: 80px;
   }
   .activite-containers {
     flex-wrap: wrap;
@@ -171,5 +184,6 @@
   }
   footer {
     flex-direction: column;
+    margin: 0;
   }
 }
