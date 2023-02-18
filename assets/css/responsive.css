@@ -2,6 +2,15 @@
   body {
     margin: 0 70px;
   }
+  header {
+    padding: 44px 58px 0 15px;
+  }
+  header ul {
+    gap: 70px;
+  }
+  header li a {
+    margin: 0;
+  }
 
   .filter-section {
     padding-left: 20px;
@@ -78,7 +87,11 @@
     padding: 0;
   }
   footer {
-    flex-direction: column;
+    margin: 40px 0 0 0;
+    padding: 40px;
+  }
+  .footer-menu {
+    padding: 0;
   }
 }
 

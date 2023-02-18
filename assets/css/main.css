@@ -13,7 +13,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 44px 78px 0 55px;
+  padding: 44px 25px 0 55px;
 }
 header ul {
   display: flex;
@@ -250,7 +250,7 @@ main {
 }
 
 .activite {
-  padding-top: 120px;
+  padding-top: 40px;
 }
 .activite .titre {
   padding-bottom: 20px;
