@@ -243,5 +243,13 @@
   footer {
     flex-direction: column;
     margin: 0;
+    gap: 40px;
+  }
+  .footer-menu {
+    padding-top: 10px;
+    gap: 5px;
+  }
+  .footer-menu li {
+    padding: 5px 0;
   }
 }
