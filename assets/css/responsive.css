@@ -112,6 +112,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  #home {
+    padding-top: 20px;
+  }
   .les-plus-populaires-container {
     flex-direction: column;
     padding: 0;
