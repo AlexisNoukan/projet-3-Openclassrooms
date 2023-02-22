@@ -79,6 +79,9 @@ main {
 .search input {
   padding: 0 5px;
 }
+.search-btn i {
+  display: none;
+}
 .search-btn {
   width: 100px;
   height: 50px;
