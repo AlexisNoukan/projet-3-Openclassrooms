@@ -34,6 +34,7 @@
   }
   .hebergements .card {
     margin-top: 20px;
+    /* rajouter padding 0 si demander card */
   }
   .les-plus-populaires-container {
     flex-direction: row;
