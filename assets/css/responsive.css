@@ -1,4 +1,4 @@
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 992px) {
   body {
     margin: 0 70px;
   }
@@ -32,9 +32,11 @@
   .hebergement-container {
     width: 100%;
   }
+  .hebergements .cards {
+    padding: 0;
+  }
   .hebergements .card {
     margin-top: 20px;
-    /* rajouter padding 0 si demander card */
   }
   .les-plus-populaires-container {
     flex-direction: row;
