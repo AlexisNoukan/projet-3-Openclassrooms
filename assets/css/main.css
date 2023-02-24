@@ -33,7 +33,6 @@ header li a:hover {
 }
 header a img {
   width: 60px;
-  object-fit: wrap;
 }
 
 main {
